@@ -224,7 +224,7 @@
             display: grid;
             gap: 6px;
         }
-        @media (max-width: 860px) {
+        @media (max-width: 767px) {
             .row-2, .row-3 {
                 grid-template-columns: 1fr;
             }
@@ -242,7 +242,7 @@
         <div class="container branding">
             <div>
                 <p class="pill">24/7 Doctor + AI Triage</p>
-                <h1>Askadoc Health Assistant</h1>
+                <h1>Askadoc Health App</h1>
                 <p>Get immediate symptom triage, basic self-care guidance and an on-demand doctor connection in one place.</p>
             </div>
             <div class="status" id="doctor-status">
@@ -515,8 +515,7 @@
     </script>
 </body>
 </html>
-'@
-Set-Content -LiteralPath .\index.html -Value $html -Encoding UTF8
+
 
 
 
