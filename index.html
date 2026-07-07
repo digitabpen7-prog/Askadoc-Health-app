@@ -333,17 +333,7 @@
     </main>
 
     <script>
-        const triageForm = document.getElementById('triage-form');
-        const triageOutput = document.getElementById('triage-output');
-        const triageLevel = document.getElementById('triage-level');
-        const triageSummary = document.getElementById('triage-summary');
-        const selfCareList = document.getElementById('self-care-list');
-        const chatWindow = document.getElementById('chat-window');
-        const chatInput = document.getElementById('chat-input');
-        const sendChat = document.getElementById('send-chat');
-        const connectDoctor = document.getElementById('connect-doctor');
-        const requestCall = document.getElementById('request-call');
-        const tagButtons = document.querySelectorAll('#tag-list button');
+        
 
         const adviceRules = [
             {match: /fever|temperature|hot/i, level: 'urgent', advice: ['Rest in a cool room', 'Drink plenty of fluids', 'Track temperature hourly']},
