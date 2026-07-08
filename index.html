@@ -5,7 +5,6 @@
               
 <head>
    <link href="/style.css/"rel="stylesheet">
-
     <title>Askadoc</title>
 </head>
 <body>
@@ -16,7 +15,7 @@
         <div class="container branding">
             <div>
                 <p class="pill">24/7 Doctor + AI Triage</p>
-                <h1>Askadoc Health App</h1>
+                <h1>Ask a Doc Health App</h1>
                 <p>Get immediate symptom triage, basic self-care guidance and an on-demand doctor connection in one place.</p>
             </div>
             <div class="status" id="status">
@@ -27,7 +26,7 @@
         </div>
     </header>
 
-    <main class="container grid" style="grid-template-columns: 1.4fr 1fr;">
+    <main class="container grid two-cols">
         <section class="card">
             <h2>Symptom Checker & Triage</h2>
             <p>Enter your symptoms, select the intensity, and let Askadoc classify your urgency level and recommend self-care steps.</p>
@@ -76,7 +75,7 @@
                 <button type="submit">Run Triage</button>
             </form>
 
-            <div id="triage-output" style="margin-top: 24px; display:none;" class="card">
+            <div id="triage-output" class="card hidden">
                 <div class="status" id="triage-level"></div>
                 <h3>Recommendations</h3>
                 <p id="triage-summary"></p>
@@ -98,7 +97,7 @@
                 <button id="send-chat">Send</button>
             </div>
             <p class="note">The chat assistant is for informational support only and not a substitute for medical advice.</p>
-            <div class="card" style="margin-top: 24px; background: #eef6ff;">
+            <div class="card accent-card">
                 <h3>Doctor on Demand</h3>
                 <p>24/7 consulting doctor support is available for urgent care and follow-up guidance.</p>
                 <div class="badge">24/7 access</div>
@@ -108,11 +107,24 @@
         </aside>
     </main>
 
+    <script src="script.js"></script
     
 </body>
 </html>
 
 
 
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,7 +14,7 @@
             box-sizing: border-box;
         }
         .mobile {
-            background-color: 49306b;
+            background-color: var(--primary);
             display:block;
             text-align:center;
         }
