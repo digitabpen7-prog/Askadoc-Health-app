@@ -13,11 +13,7 @@
         * {
             box-sizing: border-box;
         }
-        .mobile {
-            background-color: var(--primary);
-            display:block;
-            text-align:center;
-        }
+       
         body {
             margin: 0;
             min-height: 100vh;
